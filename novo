@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/estiloso.css">
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    body {margin: 0;
+    }
+    body {background-color: 
+    lightgreen;}
+
+    ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; 
+    position: fixed;
+    width: 100%;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+</style>
+</head>
+<body>
+<div >
+<ul class="topnav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#sobre">Sobre</a></li>
+  <li><a href="#contato">Contato</a></li>
+</ul>
+</div>
+<center>
+<h1 style="font-weight: bolder;">Novo Participante</h1>
+ <div class="form-group">
+                            <label for="inputtexto" class="col-lg-3 control-label">Nome</label>
+                            <div class="col-lg-9">
+                            <form>
+                                <input autofocus type="text" class="form-control" id="Nome" name="Nome" onblur="this.value=this.value.toUpperCase()" placeholder="Nome" value="" maxlength="80">
+                            </form>
+                            </div>
+                        </div>
+ <div class="form-group">
+                            <label for="inputtexto" class="col-lg-3 control-label">CPF</label>
+                            <div class="col-lg-9">
+                            <form>
+                                <input autofocus type="text" class="form-control" id="CPF" name="CPF" onblur="this.value=this.value.toUpperCase()" placeholder="CPF" value="" maxlength="80">
+                            </form>
+                            </div>
+                        </div>
+<div class="form-group">
+                            <label for="inputtexto" class="col-lg-3 control-label">Email</label>
+                            <div class="col-lg-9">
+                            <form>
+                                <input autofocus type="text" class="form-control" id="Email" name="Email" onblur="this.value=this.value.toUpperCase()" placeholder="Email" value="" maxlength="80">
+                            </form>
+                            </div>
+                        </div>    
+<div class="form-group">
+                            <label for="inputtexto" class="col-lg-3 control-label">Senha</label>
+                            <div class="col-lg-9">
+                            <form>
+                                <input autofocus type="text" class="form-control" id="Senha" name="Senha" onblur="this.value=this.value.toUpperCase()" placeholder="Senha" value="" maxlength="80">
+                            </form>
+                            </div>
+                        </div>  
+<div class="form-group">
+                            <label for="inputtexto" class="col-lg-3 control-label">Repita a senha</label>
+                            <div class="col-lg-9">
+                            <form>
+                                <input autofocus type="text" class="form-control" id="Repita a senha" name="Repita a senha" onblur="this.value=this.value.toUpperCase()" placeholder="Repita a senha" value="" maxlength="80">
+                            </form>
+                            </div>
+                        </div>                               
+<a href="Novapasta/0.html"> <button class="btn btn-primary btn-lg subject" type="button" value="fav_Gravar">Gravar</button></a>
+<a href="Novapasta/alterar.html"> <button class="btn btn-danger btn-lg subject" type="button" value="fav_Cancelar">Cancelar</button></a>
+<br>
+</body>
+</html>
