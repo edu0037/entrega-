@@ -44,4 +44,6 @@ ul.topnav li a {
     background-color: #ddd;
     border-radius: 5px;
 }
-
+h1 {
+    font-weight: bolder;
+}
