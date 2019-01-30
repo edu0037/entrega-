@@ -1,0 +1,18 @@
+<?php
+$id = $_GET['id'];
+$nome = $_GET['nome'];
+$cpf = $_GET['cpf'];
+$email = $_GET['email'];
+
+$query = "insert into produtos (nome) values ('{$nome}')";
+if(mysqli_query($conexao, $query)) {
+?>
+<p class="alert-success">participacao <?= $nome; ?>, adicionado com sucesso!</p>
+<?php
+} else {
+?>
+<p class="alert-danger">O participacao <?= $nome; ?> não foi adicionado</p>
+<?php
+}
+?>
+<?php include("index.php");?>
